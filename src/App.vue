@@ -16,18 +16,13 @@
 
         <h1>BookStore</h1>
       </div>
-
-     
-      <!-- <v-text-field
-        hide-details
-      ></v-text-field> -->
       <v-spacer></v-spacer>
 
       <v-btn icon>
         <v-icon>mdi-magnify</v-icon>
       </v-btn>
       <span class="mr-2">Cart</span>
-      <router-link to="/about"><v-icon>mdi-cart </v-icon></router-link>
+      <router-link to="/Cart"><v-icon>mdi-cart </v-icon></router-link>
     </v-app-bar>
 
     <v-main>
@@ -40,8 +35,8 @@
 
 export default {
   name: 'App',
-    data: () => ({
-      //
-    }),
+    data: {
+      
+    },
   }
 </script>
