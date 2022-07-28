@@ -9,6 +9,9 @@ class BookStoreService {
     insertBook() {
         return axios.post(`${Book_Store_URL}/insert`);
       }
+      getContactCount() {
+        return axios.get(`${Book_Store_URL}/getcount`);
+      }
 }
 export default new BookStoreService();
 

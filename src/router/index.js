@@ -2,6 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Book from '../components/Book.vue'
 import Cart from '../components/Cart.vue'
+import Customer from '../components/CustomerDetails.vue'
+import Order from '../components/Order.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +17,16 @@ const routes = [
     path: '/Cart',
     name: 'Cart',
     component:Cart
+  },
+  {
+    path: '/CustomerDetails',
+    name: 'CustomerDetails',
+    component:Customer
+  },
+  {
+    path: '/Order',
+    name: 'Order',
+    component:Order
   }
 ]
 
